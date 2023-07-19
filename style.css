@@ -1,0 +1,62 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* ------------------------------------reset css-------------------------------------------- */
+.head-banner-top{
+    display: flex;
+    align-items: center;
+    background-color: #50B545;
+}
+.baner-right{display: flex;
+align-items: center;}
+.baner-left{
+    display: flex;
+    align-items: center;
+}
+.baner-right .policy{
+    display: flex;
+
+}
+.baner-right .policy .genuine{
+    display: flex;
+    align-items: center;
+
+}
+.baner-right .connect{
+    display: flex;
+    align-items: center;
+}
